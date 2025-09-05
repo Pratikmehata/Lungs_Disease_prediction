@@ -1,9 +1,8 @@
-# For Python 3.13 compatibility
 streamlit==1.29.0
-https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.16.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+tensorflow==2.16.1  # ✅ Correct version that exists
 numpy==1.26.4
 pillow==10.3.0
 matplotlib==3.8.0
 pandas==2.2.0
-opencv-python-headless==4.9.0.80
+opencv-python==4.9.0.80
 scikit-learn==1.4.2
