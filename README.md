@@ -40,7 +40,7 @@ https://lungsdiseaseprediction.streamlit.app/
 ### Local Development
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/lung-disease-detection.git
+git clone https://github.com/Pratikmehata/lung-disease-detection.git
 cd lung-disease-detection
 ```
 
@@ -143,3 +143,4 @@ This project uses chest X-ray images from:
 - [COVID-19 Radiography Database](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)
 - [Tuberculosis (TB) Chest X-ray Database](https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)
 ```
+
