@@ -1,5 +1,6 @@
+# For Python 3.13 compatibility
 streamlit==1.29.0
-tensorflow==2.16.1  # ✅ CORRECT VERSION THAT EXISTS
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.16.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 numpy==1.26.4
 pillow==10.3.0
 matplotlib==3.8.0
