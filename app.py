@@ -49,8 +49,8 @@ if uploaded_file is not None:
     
     with col1:
         # Display the uploaded image
-        original_img = Image.open(uploaded_file)
-        st.image(original_img, caption='Uploaded X-ray Image', use_container_width=True)
+        original_img = Image.open(uploaded_file).convert("RGB")
+        st.image(original_img, caption='Uploaded X-ray Image', use_column_width=True)
         
         # Preprocess the image for the model
         img = original_img.resize((224, 224))
